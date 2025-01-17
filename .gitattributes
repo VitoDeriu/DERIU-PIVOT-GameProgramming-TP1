@@ -1,53 +1,38 @@
-# Enforce text file line endings
-* text=auto
-
-# Unity YAML serialization
-*.unity text
+# Unity text assets
+*.cs     text diff=csharp
+*.shader text
+*.txt    text
+*.json   text
+*.xml    text
+*.fnt    text
+*.anim   text
+*.controller text
 *.prefab text
-*.asset text
-*.meta text
-*.mat text
-*.anim text
-*.physicMaterial text
+*.unity  text
 
-# Images and binary files
+# Images
 *.png binary
 *.jpg binary
 *.jpeg binary
-*.psd binary
-*.tga binary
 *.gif binary
-*.mp4 binary
-*.mp3 binary
+*.tga binary
+*.psd binary
+
+# Audio
 *.wav binary
+*.mp3 binary
 *.ogg binary
-*.fbx binary
-*.obj binary
-*.dae binary
-*.hdr binary
-*.exr binary
-*.dll binary
 
 # Fonts
 *.ttf binary
 *.otf binary
 
-# Models
-*.blend binary
-*.max binary
-*.c4d binary
-*.ma binary
-*.mb binary
+# Videos
+*.mp4 binary
+*.mov binary
 
-# Archives
-*.zip binary
-*.rar binary
-*.7z binary
-*.gz binary
-*.tar binary
-*.bz2 binary
-
-# Shader Cache
-*.shader binary
-*.cginc binary
-*.compute binary
+# Other binary files
+*.dll binary
+*.exe binary
+*.so binary
+*.dylib binary
